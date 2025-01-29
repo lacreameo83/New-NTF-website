@@ -16,11 +16,7 @@ import icon4 from "../../assets/icons/icon4.png";
 function PopularAution() {
   const containerRef = useRef(null);
 
-  const handleNext = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({ left: 200, behavior: "smooth" }); // Adjust scroll amount as needed
-    }
-  };
+  
 
   const data = [
     {
@@ -181,13 +177,7 @@ function PopularAution() {
           ))}
         </div>
 
-        {/* Arrow button */}
-        {/* <div
-          onClick={handleNext}
-          className="absolute shadow-[0px_25px_75px_0px_rgba(6,7,20,0.1)] backdrop-blur-[7px] right-70 top-[30%] w-[120px] bg-[rgba(38,40,64,0.8)] rounded-full flex-center h-[120px] cursor-pointer"
-        >
-          <IoIosArrowForward className="text-white text-2xl" />
-        </div> */}
+
       </div>
 
       <div>

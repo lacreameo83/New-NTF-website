@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import AuctionCards from "../cards/AuctionCards";
 import { IoIosArrowForward } from "react-icons/io";
 import item1 from "../../assets/Item1.png";

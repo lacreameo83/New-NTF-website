@@ -3,8 +3,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import Button from "../reuseable/Button";
 import image from "../../assets/Image.png";
 import item from "../../assets/item1.png";
-import item2 from "../../assets/item2.png";
-import item3 from "../../assets/item3.png";
+import pic from "../../assets/item2.png";
+import img from "../../assets/item3.png";
 import AuctionCards from "../cards/AuctionCards";
 import Usercard from "../cards/Usercard";
 import Blackbutton from "../reuseable/Blackbutton";
@@ -32,7 +32,7 @@ function TripleSection() {
       title: "Dui accumsan leo vestibulum ornare eu",
       price: 1.11,
       time: 40,
-      image:item2,
+      image:pic,
       total: 522,
       bid: 101,
       user: [],
@@ -41,7 +41,7 @@ function TripleSection() {
       title: "Vulputate felis purus viverra morbi facilisi eget",
       price: 3.19,
       time: 10,
-      image:item3,
+      image:img,
       total: 922,
       bid: 101,
       user: ["3", "3", "33", "3"],
@@ -50,7 +50,7 @@ function TripleSection() {
       title: "Vulputate felis purus viverra morbi facilisi eget",
       price: 3.19,
       time: 10,
-      image:item3,
+      image:img,
       total: 922,
       bid: 101,
       user: ["3", "3", "33", "3"],

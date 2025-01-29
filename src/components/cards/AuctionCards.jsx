@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import { TfiAlarmClock } from "react-icons/tfi";
-import Usercard from './Usercard';
+// import Usercard from './Usercard';
 
 function AuctionCards({
   btn,
