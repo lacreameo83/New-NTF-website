@@ -2,9 +2,9 @@ import React, { useRef } from "react";
 import Blackbutton from "../reuseable/Blackbutton";
 import AuctionCards from "../cards/AuctionCards";
 import { IoIosArrowForward } from "react-icons/io";
-import item1 from "..//../assets/item1.png";
-import item2 from "..//../assets/item2.png";
-import item3 from "..//../assets/item3.png";
+import item1 from "..//../assets/Item1.png";
+import item2 from "..//../assets/Item2.png";
+import item3 from "..//../assets/Item3.png";
 import Usercard from "../cards/Usercard";
 
 // icons
