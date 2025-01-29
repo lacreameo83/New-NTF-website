@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import AuctionCards from "../cards/AuctionCards";
 import { IoIosArrowForward } from "react-icons/io";
-import item1 from "../../assets/item1.png";
+import item1 from "../../assets/Item1.png";
 import item2 from "../../assets/item2.png";
 import item3 from "../../assets/item3.png";
 import Usercard from "../cards/Usercard";
