@@ -189,13 +189,7 @@ function TripleSection() {
         </div>
       </div>
 
-      {/* Scroll Button (Placed Outside the Grid) */}
-      {/* <div
-        onClick={handleNext}
-        className="absolute shadow-lg backdrop-blur-md right-[-10px] top-[30%] w-[50px] h-[50px] bg-[rgba(38,40,64,0.8)] rounded-full flex justify-center items-center cursor-pointer"
-      >
-        <IoIosArrowForward className="text-white text-2xl" />
-      </div> */}
+      
     </div>
   );
 }

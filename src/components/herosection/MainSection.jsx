@@ -11,7 +11,7 @@ function MainSection() {
 
     const handleNext = () => {
       if (containerRef.current) {
-        containerRef.current.scrollBy({ left: 200, behavior: "smooth" }); // Adjust scroll amount as needed
+        containerRef.current.scrollBy({ left: 200, behavior: "smooth" }); 
       }
     };
  const data = [
