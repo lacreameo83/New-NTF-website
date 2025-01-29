@@ -1,117 +1,117 @@
-import React, { useRef } from 'react'
-import AuctionCards from '../../cards/AuctionCards';
+import React, { useRef } from "react";
+import AuctionCards from "../cards/AuctionCards";
 import { IoIosArrowForward } from "react-icons/io";
 import item1 from "../../assets/item1.png";
 import item2 from "../../assets/item2.png";
 import item3 from "../../assets/item3.png";
-import Usercard from '../../cards/Usercard';
+import Usercard from "../cards/Usercard";
 
 function MainSection() {
-    const containerRef = useRef(null);
+  const containerRef = useRef(null);
 
-    const handleNext = () => {
-      if (containerRef.current) {
-        containerRef.current.scrollBy({ left: 200, behavior: "smooth" }); 
-      }
-    };
- const data = [
-   {
-     title: "Vulputate felis purus viverra morbi facilisi eget",
-     price: 3.19,
-     time: 20,
-     image: item1,
-     total: 122,
-     bid: 101,
-     user: [
-       {
-         user1: "1",
-         user2: "2",
-         user3: "3",
-         user4: "4",
-       },
-     ],
-   },
-   {
-     title: "Dui accumsan leo vestibulum ornare eu",
-     price: 1.11,
-     time: 40,
-     image: item2,
-     total: 522,
-     bid: 101,
-     user: [
-       {
-         user1: "",
-         user2: "",
-         user3: "",
-         user4: "",
-       },
-     ],
-   },
-   {
-     title: "Vulputate felis purus viverra morbi facilisi eget",
-     price: 3.19,
-     time: 10,
-     image: item3,
-     total: 922,
-     bid: 101,
-     user: [
-       {
-         user1: "3",
-         user2: "3",
-         user3: "33",
-         user4: "3",
-       },
-     ],
-   },
-   {
-     title: "Senectus adipiscing nascetur accumsan etiam",
-     price: 1.63,
-     time: 5,
-     image: item1,
-     total: 102,
-     bid: 101,
-     user: [
-       {
-         user1: "2",
-         user2: "3",
-         user3: "3",
-         user4: "3",
-       },
-     ],
-   },
-   {
-     title: "Vulputate felis purus viverra morbi facilisi eget",
-     price: 3.19,
-     time: 30,
-     image: item2,
-     total: 12,
-     bid: 101,
-     user: [
-       {
-         user1: "",
-         user2: "",
-         user3: "",
-         user4: "",
-       },
-     ],
-   },
-   {
-     title: "Vulputate felis purus viverra morbi facilisi eget",
-     price: 3.19,
-     time: 20,
-     image: item3,
-     total: 722,
-     bid: 101,
-     user: [
-       {
-         user1: "",
-         user2: "",
-         user3: "",
-         user4: "",
-       },
-     ],
-   },
- ];
+  const handleNext = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: 200, behavior: "smooth" });
+    }
+  };
+  const data = [
+    {
+      title: "Vulputate felis purus viverra morbi facilisi eget",
+      price: 3.19,
+      time: 20,
+      image: item1,
+      total: 122,
+      bid: 101,
+      user: [
+        {
+          user1: "1",
+          user2: "2",
+          user3: "3",
+          user4: "4",
+        },
+      ],
+    },
+    {
+      title: "Dui accumsan leo vestibulum ornare eu",
+      price: 1.11,
+      time: 40,
+      image: item2,
+      total: 522,
+      bid: 101,
+      user: [
+        {
+          user1: "",
+          user2: "",
+          user3: "",
+          user4: "",
+        },
+      ],
+    },
+    {
+      title: "Vulputate felis purus viverra morbi facilisi eget",
+      price: 3.19,
+      time: 10,
+      image: item3,
+      total: 922,
+      bid: 101,
+      user: [
+        {
+          user1: "3",
+          user2: "3",
+          user3: "33",
+          user4: "3",
+        },
+      ],
+    },
+    {
+      title: "Senectus adipiscing nascetur accumsan etiam",
+      price: 1.63,
+      time: 5,
+      image: item1,
+      total: 102,
+      bid: 101,
+      user: [
+        {
+          user1: "2",
+          user2: "3",
+          user3: "3",
+          user4: "3",
+        },
+      ],
+    },
+    {
+      title: "Vulputate felis purus viverra morbi facilisi eget",
+      price: 3.19,
+      time: 30,
+      image: item2,
+      total: 12,
+      bid: 101,
+      user: [
+        {
+          user1: "",
+          user2: "",
+          user3: "",
+          user4: "",
+        },
+      ],
+    },
+    {
+      title: "Vulputate felis purus viverra morbi facilisi eget",
+      price: 3.19,
+      time: 20,
+      image: item3,
+      total: 722,
+      bid: 101,
+      user: [
+        {
+          user1: "",
+          user2: "",
+          user3: "",
+          user4: "",
+        },
+      ],
+    },
+  ];
   return (
     <div className=" h-fit  w-full">
       <p className=" text-[36px] font-[600] leading-[45.36px] text-center ">
@@ -170,4 +170,4 @@ function MainSection() {
   );
 }
 
-export default MainSection
+export default MainSection;

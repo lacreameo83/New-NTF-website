@@ -5,8 +5,8 @@ import Image from "../../assets/Image.png";
 import item1 from "../../assets/item1.png";
 import item2 from "../../assets/item2.png";
 import item3 from "../../assets/item3.png";
-import AuctionCards from "../../cards/AuctionCards";
-import Usercard from "../../cards/Usercard";
+import AuctionCards from "../cards/AuctionCards";
+import Usercard from "../cards/Usercard";
 import Blackbutton from "../reuseable/Blackbutton";
 
 function TripleSection() {
@@ -144,15 +144,16 @@ function TripleSection() {
           <div className="flex ">
             <div className="flex w-[368px] flex-col gap-10">
               {data.map((el, i) => (
-                <div className="flex gap-4">
+                <div key={i} className="flex gap-4">
                   <div
                     style={{ backgroundImage: `url(${el.image})` }}
                     className="h-[120px] w-[120px] bg-cover rounded-3xl bg-no-repeat bg-center "
                   ></div>
                   <AuctionCards
+
                     // widthcontainer="w-[212px]"
                     width="w-[212px]"
-                    key={i}
+                 
                     text={el.title}
                     btn={el.price}
                     time={el.time}
@@ -188,10 +189,10 @@ function TripleSection() {
           </div>
         </div>
       </div>
-
-      
     </div>
-  );
+   
+  )
 }
 
 export default TripleSection;
+
