@@ -1,8 +1,8 @@
 import  { useRef } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import Button from "../reuseable/Button";
-import Image from "../../assets/Image.png";
-import item1 from "../../assets/item1.png";
+import image from "../../assets/Image.png";
+import item from "../../assets/item1.png";
 import item2 from "../../assets/item2.png";
 import item3 from "../../assets/item3.png";
 import AuctionCards from "../cards/AuctionCards";
@@ -23,7 +23,7 @@ function TripleSection() {
       title: "Vulputate felis purus viverra morbi facilisi eget",
       price: 3.19,
       time: 20,
-      image: item1,
+      image:item,
       total: 122,
       bid: 101,
       user: ["1", "2", "3", "4"],
@@ -32,7 +32,7 @@ function TripleSection() {
       title: "Dui accumsan leo vestibulum ornare eu",
       price: 1.11,
       time: 40,
-      image: item2,
+      image:item2,
       total: 522,
       bid: 101,
       user: [],
@@ -41,7 +41,7 @@ function TripleSection() {
       title: "Vulputate felis purus viverra morbi facilisi eget",
       price: 3.19,
       time: 10,
-      image: item3,
+      image:item3,
       total: 922,
       bid: 101,
       user: ["3", "3", "33", "3"],
@@ -50,7 +50,7 @@ function TripleSection() {
       title: "Vulputate felis purus viverra morbi facilisi eget",
       price: 3.19,
       time: 10,
-      image: item3,
+      image:item3,
       total: 922,
       bid: 101,
       user: ["3", "3", "33", "3"],
@@ -118,7 +118,7 @@ function TripleSection() {
         <div className=" text-center gap-4 h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] w-[448px]">
           <div className="h-fit  w-full  ">
             <img
-              src={Image}
+              src={image}
               className="object-cover bg-transparent h-[500px]"
               alt="NFT Preview"
             />
