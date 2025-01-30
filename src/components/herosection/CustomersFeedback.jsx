@@ -40,7 +40,8 @@ function CustomersFeedback() {
     ];
   return (
     <div className="flex-center flex-col w-full">
-      <div className="w-fit relative   ">
+      {/* <div className=" grid grid-cols-2 xl:w-full"></div> */}
+      <div className="w-fit  relative   ">
         <div
           style={{ paddingLeft: "29px" }}
           className="w-[370px] self- rounded-tl-[20px] flex items-center gap-2 pl-[29px] relative h-[42px] bg-[rgba(27,28,40,1)] "
@@ -52,20 +53,20 @@ function CustomersFeedback() {
         </div>
         <div
           style={{
-            paddingLeft: "118px",
+            // paddingLeft: "118px",
             paddingTop: "100px",
             paddingBottom: "100px",
           }}
-          className="bg-gradient-to-b flex rounded-b-[20px] rounded-tr-[20px] items-center from-[rgba(255,255,255,0.1)] to-[rgba(255,255,255,0)]"
+          className="max-w-[1392px] md:w-[90%] xl:w-full items-center bg-gradient-to-b  rounded-b-[20px] rounded-tr-[20px] grid grid-cols-1 xl:grid-cols-2 from-[rgba(255,255,255,0.1)] to-[rgba(255,255,255,0)]"
         >
           <div className="flex flex-col  gap-[48px] ">
             <p className="inter text-[rgba(119,128,161,1)] font-[500] text-[15px] w-[459px] leading-[18.15pxpx] ">
               Overline
             </p>
-            <p className="w-[590px] font-[600] text-[64px] leading-[64px] ">
+            <p className="xl:w-[590px] font-[600] text-[64px] leading-[64px] ">
               Cursus vitae sollicitudin donec nascetur. Join now
             </p>
-            <p className="inter text-[rgba(119,128,161,1)] text-[16px] w-[459px] leading-[24px] ">
+            <p className="inter text-[rgba(119,128,161,1)] text-[16px] xl:w-[459px] leading-[24px] ">
               Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor
               pulvinar ultricies dolor feugiat aliquam commodo.
             </p>
@@ -82,15 +83,17 @@ function CustomersFeedback() {
       </div>
 
       <div>
-        <div style={{marginBottom:'80px'}} className="flex items-center overflow-x-auto gap-4 p-6">
+        <div
+          style={{ marginBottom: "80px" }}
+          className="flex items-center overflow-x-auto  gap-4 p-6"
+        >
           {images.map((image, index) => (
             <div key={index} className=" shadow-md">
               <img
                 src={image.src}
                 alt={image.alt}
-                className=" object-cover h-[89px] w-[89px] "
+                className=" object-cover h-[100px] xl:h-[89px] xl:w-[89px] "
               />
-              
             </div>
           ))}
         </div>

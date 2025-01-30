@@ -58,19 +58,19 @@ function TripleSection() {
   ];
 
   return (
-    <div className="flex justify-center items-center relative">
-      <div className="max-w-[1392px] w-full grid grid-cols-3">
+    <div className="flex justify-center h-fit items-center relative">
+      <div className="max-w-[1392px] md:w-[90%] xl:w-full grid grid-cols-1 sm:grid-cols-3">
         {/* Left Section */}
         <div
           //   style={{ paddingLeft: "50px" }}
-          className="relative h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] w-[448px]"
+          className="relative h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] xl:w-[448px]"
         >
-          <p className="font-semibold w-[314px] text-[32px] leading-[40px]">
+          <p className="font-semibold xl:w-[314px] text-[32px] leading-[40px]">
             Check out the hottest Sale offers
           </p>
           <div
             ref={containerRef}
-            className="flex gap-8 w-[350px] element  overflow-x-auto scrollbar-hide"
+            className="flex gap-8 xl:not-contrast-more:w-[350px] element  overflow-x-auto scrollbar-hide"
           >
             {data.map((el, i) => (
               <AuctionCards
@@ -110,12 +110,12 @@ function TripleSection() {
           </div>
 
           <div>
-            <Blackbutton width={"w-[368px]"} text="Show me more" />
+            <Blackbutton width={"xl:w-[368px]"} text="Show me more" />
           </div>
         </div>
 
         {/* Center Section */}
-        <div className=" text-center gap-4 h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] w-[448px]">
+        <div className=" text-center gap-4 h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] xl:w-[448px]">
           <div className="h-fit  w-full  ">
             <img
               src={image}
@@ -125,20 +125,20 @@ function TripleSection() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <p className="font-semibold text-2xl leading-[30px] w-[314px]">
+            <p className="font-semibold text-2xl leading-[30px] xl:w-[314px]">
               Get started creating & selling your NFTs
             </p>
-            <p className="text-gray-500 w-[275px] leading-[21px] text-sm font-normal">
+            <p className="text-gray-500 xl:w-[275px] leading-[21px] text-sm font-normal">
               Nunc gravida faucibus netus feugiat tellus, viverra massa feugiat.
               Mi est sit.
             </p>
           </div>
-          <Button width={"w-[368px]"} text="Get started" />
+          <Button width={"xl:w-[368px]"} text="Get started" />
         </div>
 
         {/* Right Section (Empty) */}
-        <div className="h-[841px] overflow-hidden   justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px]   flex items-center    w-[448px]">
-          <p className="font-semibold w-[314px]   text-[32px] leading-[40px]">
+        <div className="h-[841px] overflow-hidden   justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px]   flex items-center    xl:w-[448px]">
+          <p className="font-semibold xl:w-[314px]   text-[32px] leading-[40px]">
             Check out the hottest Sale offers
           </p>
           <div className="flex ">
@@ -147,7 +147,7 @@ function TripleSection() {
                 <div key={i} className="flex gap-4">
                   <div
                     style={{ backgroundImage: `url(${el.image})` }}
-                    className="h-[120px] w-[120px] bg-cover rounded-3xl bg-no-repeat bg-center "
+                    className="xl:h-[120px] h-[30px] w-[30px] xl:w-[120px] bg-cover rounded-3xl bg-no-repeat bg-center "
                   ></div>
                   <AuctionCards
 
@@ -185,7 +185,7 @@ function TripleSection() {
             </div>
           </div>
           <div>
-            <Blackbutton width={"w-[368px]"} text="Show me more" />
+            <Blackbutton width={"xl:w-[368px]"} text="Show me more" />
           </div>
         </div>
       </div>
