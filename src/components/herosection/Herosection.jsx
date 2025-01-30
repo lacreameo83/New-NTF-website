@@ -87,7 +87,7 @@ function Herosection() {
             <div className="w-[162px]">
               <Dropdown
                 options={["Option 1", "Option 2", "Option 3", "Option 4"]}
-                placeholder="Category"
+                // placeholder="Category"
                 // onSelect={handleSelect}
               />
             </div>

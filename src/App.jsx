@@ -1,7 +1,8 @@
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Homepage from './pages/Homepage'
-import Herosection from './components/herosection/Herosection';
+
+import Herosectionpage from './pages/Herosectionpage';
 function App() {
   const router = createBrowserRouter([
     {
@@ -10,7 +11,7 @@ function App() {
       children: [
         {
           index:true,
-          element: <Herosection />,
+          element: <Herosectionpage />,
         },
       ],
     },

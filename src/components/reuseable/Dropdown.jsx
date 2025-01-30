@@ -20,7 +20,20 @@ const Dropdown = ({ options = [], placeholder = "Category", onSelect }) => {
         className=" flex justify-between w-full inter text-[16px] leading-[24px] text-[rgba(38,40,64,1)] items-center "
       >
         {selected}
-       
+        <svg
+          className={`w-5 h-5 ml-2 transform ${isOpen ? "rotate-180" : ""}`}
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
       </button>
 
       {/* Dropdown Menu */}
