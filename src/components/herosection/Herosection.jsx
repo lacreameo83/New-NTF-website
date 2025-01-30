@@ -102,12 +102,7 @@ function Herosection() {
         </div>
       </div>
    
-      <MainSection />
-      <OverLine />
-      <TripleSection />
-      <OverlLine2 />
-      <PopularAution />
-      <CustomersFeedback />
+      
     </div>
   );
 }

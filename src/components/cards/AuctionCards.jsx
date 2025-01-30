@@ -1,6 +1,6 @@
-// import React from 'react'
+
 import { TfiAlarmClock } from "react-icons/tfi";
-// import Usercard from './Usercard';
+
 
 function AuctionCards({
   btn,
@@ -19,26 +19,7 @@ function AuctionCards({
   heightcontaine,
   bg
 }) {
-  const data = [
-    {
-      total: 122,
-    },
-    {
-      total: 422,
-    },
-    {
-      total: 322,
-    },
-    {
-      total: 122,
-    },
-    {
-      total: 102,
-    },
-    {
-      total: 92,
-    },
-  ];
+ 
   return (
     <div
       style={{ paddingLeft: `${padding}`, paddingRight: `${padding}` }}
